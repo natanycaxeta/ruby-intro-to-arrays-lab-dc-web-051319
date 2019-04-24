@@ -8,12 +8,12 @@ end
 
 def first_element
 taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-my_first_element = taylor_swift.shift
+my_first_element = taylor_swift.first
 end
 
-def my_first_element
- my_first_element = @taylor_swift.shift
- end 
+#def my_first_element
+# my_first_element = @taylor_swift.shift
+# end 
 
 def third_element
 taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
