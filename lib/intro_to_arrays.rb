@@ -1,31 +1,32 @@
+
 def instantiate_new_array
-my_new_array = [ ]
+  []
 end
 
 def array_with_two_elements
-my_two_array = ["primeiro", "segundo"]
+  [1,2]
 end
 
-def first_element
-taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-my_first_element = taylor_swift.first
+def first_element(array)
+  array[0]
 end
 
-#def my_first_element
-# my_first_element = @taylor_swift.shift
-# end 
-
-def third_element
-taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-taylor_swift(3)
+def third_element(array)
+  array[2]
 end
 
-def last_element
-  taylor_swift = ["Welcome to New York", "Blank Space", "Style", "Out of The Woods"]
-  taylor_swift.last 
+def last_element(array)
+  array[-1]
 end
 
-def first_element_with_array_methods
-  south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
-  south_east_asia.first
+def first_element_with_array_methods(array)
+  array.first
+end
+
+def last_element_with_array_methods(array)
+  array.last
+end
+
+def length_of_array(array)
+  array.length
 end
